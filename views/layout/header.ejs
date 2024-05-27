@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.7.0/remixicon.css"
+    />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/css/styles.css" />
+
+    <title>Bakery Website</title>
+  </head>
+
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Bakery</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="/" class="nav__link active-link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="/#new" class="nav__link">New</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="/#about" class="nav__link">About Us</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="/#favorite" class="nav__link">Favorites</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="/#visit" class="nav__link">Location</a>
+            </li>
+
+            <li class="nav__item">
+              <a id="Cart" href="/cart" class="nav__link">
+                <i class="bx bx-cart"> Cart</i>
+              </a>
+            </li>
+
+            <li>
+              <a id="loginButton" href="#login" class="nav__link">
+                <i class="bx bx-log-in"> Login</i>
+              </a>
+            </li>
+          </ul>
+          <!-- close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+          <img src="/img/bread-4.png" alt="image" class="nav__img-1" />
+          <img src="/img/bread-1.png" alt="image" class="nav__img-2" />
+        </div>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>

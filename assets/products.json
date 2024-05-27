@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Whole Grain",
+    "price": 2,
+    "image": "img/favorite-bread-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Rye",
+    "price": 3,
+    "image": "img/favorite-bread-2.png"
+  },
+  {
+    "id": 3,
+    "name": "Wheat",
+    "price": 4,
+    "image": "img/favorite-bread-3.png"
+  },
+  {
+    "id": 4,
+    "name": "Multi Grain",
+    "price": 5,
+    "image": "img/favorite-bread-4.png"
+  },
+  {
+    "id": 5,
+    "name": "Sourdough",
+    "price": 6,
+    "image": "img/favorite-bread-5.png"
+  },
+  {
+    "id": 6,
+    "name": "French",
+    "price": 7,
+    "image": "img/favorite-bread-6.png"
+  }
+]
